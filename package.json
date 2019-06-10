@@ -1,0 +1,33 @@
+{
+  "name": "book-store-interface",
+  "version": "1.0.0",
+  "description": "A book store interface",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config webpack.config.js --content-base public/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aitayn/book-store-interface.git"
+  },
+  "author": "Apoorva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aitayn/book-store-interface/issues"
+  },
+  "homepage": "https://github.com/aitayn/book-store-interface#readme",
+  "devDependencies": {
+    "@types/react": "^16.8.19",
+    "@types/react-dom": "^16.8.4",
+    "awesome-typescript-loader": "^5.2.1",
+    "source-map-loader": "^0.2.4",
+    "typescript": "^3.4.5",
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.4.1"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
